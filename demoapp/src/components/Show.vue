@@ -13,7 +13,7 @@
         <th>Course</th>
         </tr>
       </thead>
-      <tbody>
+      <tbody style="color: #D1CDC8 ;">
         <tr v-for="student in students" :key="student.id">
           <td>{{student.id}}</td>
           <td>{{student.fname}}</td>
